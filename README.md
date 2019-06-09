@@ -23,7 +23,7 @@ Docker is a container based technology. It runs on Linux kernel.
 #### Orchestration
 
 
-# Docker in User
+# Docker in Use
 
 #### Install Docker
 - Download docker for MAC (https://hub.docker.com/editions/community/docker-ce-desktop-mac)

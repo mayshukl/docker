@@ -26,3 +26,11 @@ Docker is a container based technology. It runs on Linux kernel.
 # Docker in User
 
 #### Install Docker
+- Download docker for MAC (https://hub.docker.com/editions/community/docker-ce-desktop-mac)
+- install docker
+- install 2 tab auto complete https://docs.docker.com/compose/completion/
+- Run Docker (This will start one linux vm also. Can be seen in docker preference/advanced)
+
+
+
+

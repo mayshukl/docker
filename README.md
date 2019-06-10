@@ -15,6 +15,14 @@ Docker is a container based technology. It runs on Linux kernel.
 #### How does is work
 - NameSpace : Every container will run as a process
 - Control group : This controls the resources for a container
+
+#### Docker Objects
+- Images
+- Container
+- Volumne
+- Network
+- plugins
+
 #### Types of Container 
  - Serverless
  - Stateless
@@ -30,7 +38,6 @@ Docker is a container based technology. It runs on Linux kernel.
 - install docker
 - install 2 tab auto complete https://docs.docker.com/compose/completion/ or https://codingbee.net/docker/get-bash-autocompletion-working-for-docker-cli-on-a-mac or https://docs.docker.com/docker-for-mac/#install-shell-completion
 - Run Docker (This will start one linux vm also. Can be seen in docker preference/advanced)
-
 
 #### Commands
 

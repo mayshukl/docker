@@ -2,8 +2,8 @@
 This is Docker Repo
 
 # Topiccs
-#### History
-Docker is released on 2013 by DotCloud
+
+Docker is released on 2013 by DotCloud. It is written in GO.
 #### Why Docker
 - Faster Processes (like Develop, Build, Test, Deploy, update) 
 - Loghtweight

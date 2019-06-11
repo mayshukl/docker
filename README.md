@@ -74,8 +74,26 @@ Docker is a container based technology. It runs on Linux kernel.
 #### Network
 - docker network create my-network
 -  docker network ls
-- docker container -d --name new_nginx --network my-network nginx
+- docker container run -d --name new_nginx --network my-network nginx
 - docker network inspect my-network
+- docker container ls
+- docker network ls
+- docker network connect df9a66b8dce0 f70bdae90e8f
+- docker network disconnect f70bdae90e8f df9a66b8dce0
+
+
+#### DNS
+- docker container exec -it my_nginx ping new_nginx  (This works beacuse both are same custom created network. To enable dns in default brifge server , it uses --link option)
+
+#### DNS Round Robin
+
+- docker network create dns_network
+- docker network create dns_network
+- docker container run -d  --net dns_network --net-alias search elasticsearch:2
+- docker container run -d  --net dns_network --net-alias search elasticsearch:2
+- docker container run --rm --net dns_network alpine nslookup search
+- docker container run --rm --net dns_network centos curl -s search:9200
+
 
 
 

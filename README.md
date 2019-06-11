@@ -71,6 +71,14 @@ Docker is a container based technology. It runs on Linux kernel.
 - docker container run -it alpine sh (alpnie linux has 5 mb in size)
 
 
+#### Network
+- docker network create my-network
+-  docker network ls
+- docker container -d --name new_nginx --network my-network nginx
+- docker network inspect my-network
+
+
+
 
 
 

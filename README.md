@@ -13,6 +13,7 @@ Docker is released on 2013 by DotCloud. It is written in GO.
 #### Waht is Docker 
 Docker is a container based technology. It runs on Linux kernel.
 #### How does is work
+- https://www.toptal.com/linux/separation-anxiety-isolating-your-system-with-linux-namespaces
 - NameSpace : Every container will run as a process
 - Control group : This controls the resources for a container
 

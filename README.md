@@ -63,6 +63,12 @@ Custom network can also be created using network commands
 - install 2 tab auto complete https://docs.docker.com/compose/completion/ or https://codingbee.net/docker/get-bash-autocompletion-working-for-docker-cli-on-a-mac or https://docs.docker.com/docker-for-mac/#install-shell-completion
 - Run Docker (This will start one linux vm also. Can be seen in docker preference/advanced)
 
+
+#### Login to docker hub
+- docker login
+- docker logout
+- .docker/daemon.json
+
 #### Commands
 
 - docker version
@@ -117,6 +123,12 @@ Custom network can also be created using network commands
 - docker container run --rm --net dns_network alpine nslookup search
 - docker container run --rm --net dns_network centos curl -s search:9200
 
+
+#### Images
+- docker image ls
+- docker pull nginx:mainline
+- docker history nginx:latest
+- docker inspect nginx
 
 
 

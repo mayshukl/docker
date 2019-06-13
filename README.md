@@ -1,17 +1,18 @@
-# docker
-This is Docker Repo
+# Docker 
 
-# Topiccs
+Docker is a continer based technology that is released on 2013 by DotCloud. It is written in GO.
 
-Docker is released on 2013 by DotCloud. It is written in GO.
 #### Why Docker
 - Faster Processes (like Develop, Build, Test, Deploy, update) 
 - Loghtweight
-- Plateform Independent(No seprate setup is needed) 
+- Plateform Independent(No separate setup is needed) 
 - Less time to bringup a conatiner running than a sever (Useful in autohealing System )
 - Its like process, It needes kerner and very less lib to run. No need for full fledged OS
 #### Waht is Docker 
+
 Docker is a container based technology. It runs on Linux kernel.
+
+
 #### How does is work
 - https://www.toptal.com/linux/separation-anxiety-isolating-your-system-with-linux-namespaces
 - NameSpace : Every container will run as a process
@@ -28,13 +29,34 @@ Docker is a container based technology. It runs on Linux kernel.
  - Serverless
  - Stateless
  - Statefull
+ 
 #### Docker Hub
+This is a repository of docker images. (like maven repository)  
+
 #### Orchestration
+kubernetes , swarn
+
+#### Images
+This is layred structure of changes. 
+
+#### Continers
+This is running image with one R/W lyre
+
+#### Network
+There are 3 default netrworks
+- null    -> Continer will not be in any network
+- host    -> Continer will use host machine network
+- bridge  -> This is a private netork of docker engine. All continers will be in this network by default.
+
+Custom network can also be created using network commands
+
+#### Volumne
 
 
 # Docker in Use
 
 #### Install Docker
+
 - Download docker for MAC (https://hub.docker.com/editions/community/docker-ce-desktop-mac)
 - install docker
 - install 2 tab auto complete https://docs.docker.com/compose/completion/ or https://codingbee.net/docker/get-bash-autocompletion-working-for-docker-cli-on-a-mac or https://docs.docker.com/docker-for-mac/#install-shell-completion

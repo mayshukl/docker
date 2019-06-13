@@ -37,7 +37,8 @@ This is a repository of docker images. (like maven repository)
 kubernetes , swarn
 
 #### Images
-This is layred structure of changes. 
+- can be defined as app binaries, its dependencies and its metadata
+- This is layred structure of changes. 
 
 #### Continers
 This is running image with one R/W lyre

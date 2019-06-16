@@ -51,6 +51,11 @@ There are 3 default netrworks
 
 Custom network can also be created using network commands
 
+
+#### To Persist Data
+- container
+-  Build Mounts
+
 #### Volumne
 
 
@@ -76,7 +81,8 @@ Custom network can also be created using network commands
 - docker container run --publish 80:80 --detach --name webhost nginx
 - docker container logs webhost
 - docker container top webhost 
-- docker container stop webhost
+- docker container stop webhost   (This initiate SIGTERM )
+- docker container stop webhost    (This initiate SIGKILL )
 - docker container rm webhost
 - docker container run --name mongo -detach mongo
 - docker container ls
@@ -131,6 +137,16 @@ Custom network can also be created using network commands
 - docker inspect nginx
 
 
+#### Clean host
+- docker image prune      (to clean up just "dangling" images)
+- docker system prune      (will clean up everything)
+
+Docker-compone
+
+- docker-compose up --build
+- docker-compose up -d
+- docker-compose down
+- docker-compose ps
 
 
 
